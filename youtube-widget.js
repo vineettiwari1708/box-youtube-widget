@@ -229,7 +229,7 @@
 //   });
 // });
 
-//adjested multiple video size
+//adjested size single video 
 document.addEventListener("DOMContentLoaded", function () {
   const scriptTag = document.getElementById("uf-youtube-script");
   if (!scriptTag) return;
