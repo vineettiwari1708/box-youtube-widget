@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add hover effect via JS (optional fallback if no CSS)
   const closeBtn = widget.querySelector("#close-youtube-widget");
   closeBtn.addEventListener("mouseenter", () => {
-    closeBtn.style.background = "#1a1a1a";
+    closeBtn.style.background = "transparent";
     closeBtn.style.color = "#000";
   });
   closeBtn.addEventListener("mouseleave", () => {
